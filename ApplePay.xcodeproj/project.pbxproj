@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE34E32C1D0FB0B00063845C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE34E32B1D0FB0B00063845C /* main.m */; };
+		EE34E32F1D0FB0B00063845C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE34E32E1D0FB0B00063845C /* AppDelegate.m */; };
+		EE34E3321D0FB0B00063845C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE34E3311D0FB0B00063845C /* ViewController.m */; };
+		EE34E3351D0FB0B00063845C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE34E3331D0FB0B00063845C /* Main.storyboard */; };
+		EE34E3371D0FB0B00063845C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE34E3361D0FB0B00063845C /* Assets.xcassets */; };
+		EE34E33A1D0FB0B00063845C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE34E3381D0FB0B00063845C /* LaunchScreen.storyboard */; };
+		EE34E3451D0FB0B00063845C /* ApplePayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE34E3441D0FB0B00063845C /* ApplePayTests.m */; };
+		EE34E3501D0FB0B00063845C /* ApplePayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE34E34F1D0FB0B00063845C /* ApplePayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE34E3411D0FB0B00063845C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE34E31F1D0FB0B00063845C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE34E3261D0FB0B00063845C;
+			remoteInfo = ApplePay;
+		};
+		EE34E34C1D0FB0B00063845C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE34E31F1D0FB0B00063845C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE34E3261D0FB0B00063845C;
+			remoteInfo = ApplePay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE34E3271D0FB0B00063845C /* ApplePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE34E32B1D0FB0B00063845C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE34E32D1D0FB0B00063845C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE34E32E1D0FB0B00063845C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE34E3301D0FB0B00063845C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE34E3311D0FB0B00063845C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE34E3341D0FB0B00063845C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE34E3361D0FB0B00063845C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE34E3391D0FB0B00063845C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE34E33B1D0FB0B00063845C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE34E3401D0FB0B00063845C /* ApplePayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE34E3441D0FB0B00063845C /* ApplePayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePayTests.m; sourceTree = "<group>"; };
+		EE34E3461D0FB0B00063845C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE34E34B1D0FB0B00063845C /* ApplePayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE34E34F1D0FB0B00063845C /* ApplePayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePayUITests.m; sourceTree = "<group>"; };
+		EE34E3511D0FB0B00063845C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE34E3241D0FB0B00063845C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE34E33D1D0FB0B00063845C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE34E3481D0FB0B00063845C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE34E31E1D0FB0B00063845C = {
+			isa = PBXGroup;
+			children = (
+				EE34E3291D0FB0B00063845C /* ApplePay */,
+				EE34E3431D0FB0B00063845C /* ApplePayTests */,
+				EE34E34E1D0FB0B00063845C /* ApplePayUITests */,
+				EE34E3281D0FB0B00063845C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE34E3281D0FB0B00063845C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE34E3271D0FB0B00063845C /* ApplePay.app */,
+				EE34E3401D0FB0B00063845C /* ApplePayTests.xctest */,
+				EE34E34B1D0FB0B00063845C /* ApplePayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE34E3291D0FB0B00063845C /* ApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				EE34E32D1D0FB0B00063845C /* AppDelegate.h */,
+				EE34E32E1D0FB0B00063845C /* AppDelegate.m */,
+				EE34E3301D0FB0B00063845C /* ViewController.h */,
+				EE34E3311D0FB0B00063845C /* ViewController.m */,
+				EE34E3331D0FB0B00063845C /* Main.storyboard */,
+				EE34E3361D0FB0B00063845C /* Assets.xcassets */,
+				EE34E3381D0FB0B00063845C /* LaunchScreen.storyboard */,
+				EE34E33B1D0FB0B00063845C /* Info.plist */,
+				EE34E32A1D0FB0B00063845C /* Supporting Files */,
+			);
+			path = ApplePay;
+			sourceTree = "<group>";
+		};
+		EE34E32A1D0FB0B00063845C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE34E32B1D0FB0B00063845C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE34E3431D0FB0B00063845C /* ApplePayTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE34E3441D0FB0B00063845C /* ApplePayTests.m */,
+				EE34E3461D0FB0B00063845C /* Info.plist */,
+			);
+			path = ApplePayTests;
+			sourceTree = "<group>";
+		};
+		EE34E34E1D0FB0B00063845C /* ApplePayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE34E34F1D0FB0B00063845C /* ApplePayUITests.m */,
+				EE34E3511D0FB0B00063845C /* Info.plist */,
+			);
+			path = ApplePayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE34E3261D0FB0B00063845C /* ApplePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE34E3541D0FB0B00063845C /* Build configuration list for PBXNativeTarget "ApplePay" */;
+			buildPhases = (
+				EE34E3231D0FB0B00063845C /* Sources */,
+				EE34E3241D0FB0B00063845C /* Frameworks */,
+				EE34E3251D0FB0B00063845C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApplePay;
+			productName = ApplePay;
+			productReference = EE34E3271D0FB0B00063845C /* ApplePay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE34E33F1D0FB0B00063845C /* ApplePayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE34E3571D0FB0B00063845C /* Build configuration list for PBXNativeTarget "ApplePayTests" */;
+			buildPhases = (
+				EE34E33C1D0FB0B00063845C /* Sources */,
+				EE34E33D1D0FB0B00063845C /* Frameworks */,
+				EE34E33E1D0FB0B00063845C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE34E3421D0FB0B00063845C /* PBXTargetDependency */,
+			);
+			name = ApplePayTests;
+			productName = ApplePayTests;
+			productReference = EE34E3401D0FB0B00063845C /* ApplePayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE34E34A1D0FB0B00063845C /* ApplePayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE34E35A1D0FB0B00063845C /* Build configuration list for PBXNativeTarget "ApplePayUITests" */;
+			buildPhases = (
+				EE34E3471D0FB0B00063845C /* Sources */,
+				EE34E3481D0FB0B00063845C /* Frameworks */,
+				EE34E3491D0FB0B00063845C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE34E34D1D0FB0B00063845C /* PBXTargetDependency */,
+			);
+			name = ApplePayUITests;
+			productName = ApplePayUITests;
+			productReference = EE34E34B1D0FB0B00063845C /* ApplePayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE34E31F1D0FB0B00063845C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = linan;
+				TargetAttributes = {
+					EE34E3261D0FB0B00063845C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EE34E33F1D0FB0B00063845C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EE34E3261D0FB0B00063845C;
+					};
+					EE34E34A1D0FB0B00063845C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EE34E3261D0FB0B00063845C;
+					};
+				};
+			};
+			buildConfigurationList = EE34E3221D0FB0B00063845C /* Build configuration list for PBXProject "ApplePay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE34E31E1D0FB0B00063845C;
+			productRefGroup = EE34E3281D0FB0B00063845C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE34E3261D0FB0B00063845C /* ApplePay */,
+				EE34E33F1D0FB0B00063845C /* ApplePayTests */,
+				EE34E34A1D0FB0B00063845C /* ApplePayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE34E3251D0FB0B00063845C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE34E33A1D0FB0B00063845C /* LaunchScreen.storyboard in Resources */,
+				EE34E3371D0FB0B00063845C /* Assets.xcassets in Resources */,
+				EE34E3351D0FB0B00063845C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE34E33E1D0FB0B00063845C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE34E3491D0FB0B00063845C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE34E3231D0FB0B00063845C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE34E3321D0FB0B00063845C /* ViewController.m in Sources */,
+				EE34E32F1D0FB0B00063845C /* AppDelegate.m in Sources */,
+				EE34E32C1D0FB0B00063845C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE34E33C1D0FB0B00063845C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE34E3451D0FB0B00063845C /* ApplePayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE34E3471D0FB0B00063845C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE34E3501D0FB0B00063845C /* ApplePayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE34E3421D0FB0B00063845C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE34E3261D0FB0B00063845C /* ApplePay */;
+			targetProxy = EE34E3411D0FB0B00063845C /* PBXContainerItemProxy */;
+		};
+		EE34E34D1D0FB0B00063845C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE34E3261D0FB0B00063845C /* ApplePay */;
+			targetProxy = EE34E34C1D0FB0B00063845C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE34E3331D0FB0B00063845C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE34E3341D0FB0B00063845C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE34E3381D0FB0B00063845C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE34E3391D0FB0B00063845C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE34E3521D0FB0B00063845C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE34E3531D0FB0B00063845C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE34E3551D0FB0B00063845C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ApplePay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = duolabao.ApplePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE34E3561D0FB0B00063845C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ApplePay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = duolabao.ApplePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE34E3581D0FB0B00063845C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ApplePayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = duolabao.ApplePayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplePay.app/ApplePay";
+			};
+			name = Debug;
+		};
+		EE34E3591D0FB0B00063845C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ApplePayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = duolabao.ApplePayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplePay.app/ApplePay";
+			};
+			name = Release;
+		};
+		EE34E35B1D0FB0B00063845C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ApplePayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = duolabao.ApplePayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ApplePay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE34E35C1D0FB0B00063845C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ApplePayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = duolabao.ApplePayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ApplePay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE34E3221D0FB0B00063845C /* Build configuration list for PBXProject "ApplePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE34E3521D0FB0B00063845C /* Debug */,
+				EE34E3531D0FB0B00063845C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE34E3541D0FB0B00063845C /* Build configuration list for PBXNativeTarget "ApplePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE34E3551D0FB0B00063845C /* Debug */,
+				EE34E3561D0FB0B00063845C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE34E3571D0FB0B00063845C /* Build configuration list for PBXNativeTarget "ApplePayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE34E3581D0FB0B00063845C /* Debug */,
+				EE34E3591D0FB0B00063845C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE34E35A1D0FB0B00063845C /* Build configuration list for PBXNativeTarget "ApplePayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE34E35B1D0FB0B00063845C /* Debug */,
+				EE34E35C1D0FB0B00063845C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE34E31F1D0FB0B00063845C /* Project object */;
+}
