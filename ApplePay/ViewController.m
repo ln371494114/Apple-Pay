@@ -24,7 +24,7 @@
     [super viewDidLoad];
     
     /**
-     *  这是哥哥们封装的静态库 汝等屌丝不必管
+     *   update
      */
     Person *a = [Person new];
     [a sayHello];
